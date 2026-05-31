@@ -64,6 +64,8 @@ flutter:
     - assets/boton_pausar.png
     - assets/boton_color.png
     - assets/boton_reiniciar.png
+    - assets/boton_usuario.png
+    - assets/desarrolladora.png
 
   fonts:
     - family: Kirby  # 1. Este es el nombre de pila que tú le inventas

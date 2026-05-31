@@ -1,4 +1,3 @@
-// 1. Importamos la librería de Material Design para acceder a los widgets visuales (Scaffold, Card, Text).
 import 'package:flutter/material.dart';
 
 class PantallaInfousuario extends StatelessWidget {
@@ -11,10 +10,10 @@ class PantallaInfousuario extends StatelessWidget {
       
       appBar: AppBar(
 
-        title: const Text('INFORMACION DE LA DESARROLLADORA JEFA',
+        title: const Text('INFORMACION DE LA DESARROLLADORA',
          style: TextStyle(
           fontFamily: 'Kirby',
-          fontSize: 30, 
+          fontSize: 15, 
           color: Color.fromARGB(255, 255, 255, 255)
          )),
 
@@ -41,5 +40,128 @@ class PantallaInfousuario extends StatelessWidget {
           ),
         ),
       ),
-    
-  cuerpo (body) de la pantalla. Usamos Center para asegurar que tu tarjeta quede en el medio exacto.
+    body: Center(
+        child: Padding(
+          padding: const EdgeInsets.all(20.0), 
+          
+          child: Card(
+            elevation: 8,
+
+            color: const Color.fromARGB(255, 255, 255, 255),
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+            
+            child: Padding(
+              padding: const EdgeInsets.all(30.0), 
+              
+              child: Column(
+                mainAxisSize: MainAxisSize.min, 
+                children: [
+                  
+                  const CircleAvatar(
+                    radius: 110, 
+                    backgroundColor: Color(0xFFFF69B4), 
+                    backgroundImage:AssetImage('assets/desarrolladora.png')
+                  ),
+                  
+                  const SizedBox(height: 20),
+                  
+
+                  const Text(
+                    'GRISANGELY MARTINEZ',
+                    style: TextStyle(
+                      fontSize: 26, 
+                      fontFamily: 'Kirby', 
+                      color: Color.fromARGB(221, 242, 139, 139),
+                    ),
+                  ),
+                  
+                  const SizedBox(height: 5), 
+                  
+                  const Text(
+                    'ALIAS: Gris', 
+                    style: TextStyle(
+                      fontSize: 16, 
+                      color: Color.fromARGB(161, 0, 0, 0), 
+                      fontFamily: 'Kirby',
+                    ),
+                  ),
+                  const Text(
+                    'ESTUDIO: Ingenieria de Sistemas',
+                    textAlign: TextAlign.left,
+                    style: TextStyle(
+                      fontSize: 16, 
+                      color: Color.fromARGB(173, 0, 0, 0), 
+                      fontFamily: 'Kirby',
+                    ),
+                  ),
+
+                  const Text(
+                    'COLOR FAVORITO: Depende del estado de animo',
+                    textAlign: TextAlign.left, 
+                    style: TextStyle(
+                      fontSize: 16, 
+                      color: Color.fromARGB(166, 0, 0, 0), 
+                      fontFamily: 'Kirby',
+                    ),
+                  ),
+
+                  const Text(
+                    'ACTIVIDAD FAVORITA: Replantearme mi existencia y odiar a todos',
+                    textAlign: TextAlign.left, 
+                    style: TextStyle(
+                      fontSize: 16, 
+                      color: Color.fromARGB(189, 0, 0, 0), 
+                      fontFamily: 'Kirby',
+                    ),
+                  ),
+
+                  const Text(
+                    'ME IDENTIFICO COMO: Un ser de luz y cosas positivas',
+                    textAlign: TextAlign.left, 
+                    style: TextStyle(
+                      fontSize: 16, 
+                      color: Color.fromARGB(168, 0, 0, 0), 
+                      fontFamily: 'Kirby',
+                    ),
+                  ),
+
+                  const Text(
+                    'COSAS FAVORITAS: El chisme, Las plantas, los flips de dulce de leche, la musica de juan luis guerra y franco de vita',
+                    textAlign: TextAlign.left, 
+                    style: TextStyle(
+                      fontSize: 16, 
+                      color: Color.fromARGB(171, 0, 0, 0), 
+                      fontFamily: 'Kirby',
+                      
+                    ),
+                  ),
+
+                  const SizedBox(height: 20), 
+                  
+
+                  const Divider(color: Color(0xFFFFB6C1), thickness: 3),
+                  
+                  const SizedBox(height: 15), 
+                  
+                  
+
+                  const Text(
+                    'CREADORA DE KIRBYDORO\n\nUna app diseñada para gestionar tu tiempo en las tareas y no perder el enfoque a lo autista',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 17, 
+                      fontFamily: 'Kirby', 
+                      color: Color.fromARGB(164, 255, 83, 146),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+

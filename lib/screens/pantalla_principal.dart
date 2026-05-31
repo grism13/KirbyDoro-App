@@ -83,6 +83,16 @@ class _PantallaPrincipalState extends State<PantallaPrincipal> {
             fit: BoxFit.contain,
           ),
         ),
+actions: [
+          IconButton(
+            icon: Image.asset('assets/boton_usuario.png'), 
+            iconSize: 20, 
+            onPressed: () {
+              Navigator.pushNamed(context, 'info');
+            },
+          ),
+          const SizedBox(width: 10), 
+        ],
       ),
 
       body: Center(

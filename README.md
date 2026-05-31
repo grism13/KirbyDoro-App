@@ -67,7 +67,10 @@ Sin embargo, quiero hacer de esta técnica que se adapte a cada tipo de usuario,
 
 hoy lo que hice fue establecer la estructura de la app, pero en esta entrega solo servira los botone de sumar/restar tiempo. el concepto de lo que es pomodoro no va a ser porque hay que hacer de la entrega lo mas simple posible, asi que solo se vera reflejador el contador del tiempo (sumar/restar)
 
-Tambien es importante aclarar que usare la IA por puros fines pedagogicos, sin que modifique nada de mi codigo, solo la usare para que en caso de un error recibir retroalimentacion y recomendaciones. Es por ello que implementare los comentarios donde YO, por mi parte, explicare cada parte de mi codigo.
+Tambien es importante aclarar que usare la IA por puros fines pedagogicos, sin que modifique nada de mi codigo, solo la usare para que en caso de un error recibir retroalimentacion y recomendaciones. Es por ello que implementare los comentarios donde YO, por mi parte, explicare cada parte de mi codigo (ya al final cuando haga el ultimo commit).
 
 He tenido problemas con git, no se que le pasa y no me deja subir lo que tengo, asi que si en un momento dado subo todo muy adelantado es lo que he estado trabajando de dias
+ 
+# BITACORA 31/05
 
+ha sido un dia y noche largas, he vivido las consecuencias de no ser constante y procrastinar, sin embargo, eso no me ha impedido disfrutar de este proceso, es muy satisfactorio cuando logras algo que por mas minimo que sea, logre que la card quedara bien dios mio
