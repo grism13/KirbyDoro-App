@@ -9,10 +9,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false, // Quita la etiqueta fea de "Debug" arriba a la derecha
+      debugShowCheckedModeBanner: false, 
       title: 'KirbyDoro App',
       
-      // Le decimos a Flutter: "Oye, tu ruta inicial y tu mapa están en la clase AppRoutes"
+    
       initialRoute: AppRoutes.initialRoute,
       routes: AppRoutes.getRoutes(),
     );
