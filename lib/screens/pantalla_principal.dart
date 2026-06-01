@@ -1,17 +1,6 @@
 import 'package:flutter/material.dart';
-
-void main() {
-  runApp(
-    const MaterialApp(
-      debugShowCheckedModeBanner: false, // quita la etiqueta roja de debug
-      home: PantallaPrincipal(),
-    ),
-  );
-}
-
 class PantallaPrincipal extends StatefulWidget {
   const PantallaPrincipal({super.key});
-
   @override
   State<PantallaPrincipal> createState() => _PantallaPrincipalState();
 }
@@ -83,10 +72,10 @@ class _PantallaPrincipalState extends State<PantallaPrincipal> {
             fit: BoxFit.contain,
           ),
         ),
-actions: [
+        actions: [
           IconButton(
             icon: Image.asset('assets/boton_usuario.png'), 
-            iconSize: 20, 
+            iconSize: 10, 
             onPressed: () {
               Navigator.pushNamed(context, 'info');
             },

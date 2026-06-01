@@ -73,4 +73,6 @@ He tenido problemas con git, no se que le pasa y no me deja subir lo que tengo, 
  
 # BITACORA 31/05
 
-ha sido un dia y noche largas, he vivido las consecuencias de no ser constante y procrastinar, sin embargo, eso no me ha impedido disfrutar de este proceso, es muy satisfactorio cuando logras algo que por mas minimo que sea, logre que la card quedara bien dios mio
+Ha sido un dia y noche largas, he vivido las consecuencias de no ser constante y procrastinar, sin embargo, eso no me ha impedido disfrutar de este proceso, es muy satisfactorio cuando logras algo que por mas minimo que sea, logre que la card quedara bien dios mio
+
+Me he enfocado en implementar el reset y rediseñar la pantalla principal y la de la info del usuario, agregando mas elemntos, cambiando el fondo y los colores, añado todas las imagenes a mis assets, ya vienen incluidos los botones de iniciar y pausa, sin embargo por ahora no tendran ninguna funcion, solo funcionara el reset
