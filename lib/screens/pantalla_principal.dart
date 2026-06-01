@@ -48,7 +48,7 @@ class _PantallaPrincipalState extends State<PantallaPrincipal> {
     return Scaffold(
       appBar: AppBar(
         toolbarHeight: 120,
-        backgroundColor: const Color.fromARGB(255, 242, 179, 196),
+        backgroundColor: const Color.fromARGB(255, 255, 213, 224),
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.only(
             bottomLeft: Radius.circular(30),
@@ -130,12 +130,7 @@ class _PantallaPrincipalState extends State<PantallaPrincipal> {
                       Image.asset('assets/kirby_descando.png', height: 100),
                       ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: const Color.fromARGB(
-                            255,
-                            220,
-                            113,
-                            193,
-                          ),
+                          backgroundColor: const Color.fromARGB(255,220,113,193),
                           shape: const StadiumBorder(),
                         ),
                         onPressed: () => cambiarModo(15),
@@ -206,7 +201,7 @@ class _PantallaPrincipalState extends State<PantallaPrincipal> {
       bottomNavigationBar: Container(
         height: 140,
         decoration: const BoxDecoration(
-          color: Color.fromARGB(255, 242, 179, 196),
+          color: Color.fromARGB(255, 255, 213, 224),
           borderRadius: BorderRadius.only(
             topLeft: Radius.circular(35),
             topRight: Radius.circular(35),
